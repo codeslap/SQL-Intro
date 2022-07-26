@@ -36,5 +36,5 @@ SELECT item, price, quantity FROM candy_store ORDER by price;
 SELECT sum(price*quantity) FROM candy_store;
 
 /* This project is a candy store with 15 items, along with the price, quantity, and aisle it's in.
-For the Select satements (line 34) sorts the items in order by price and quantity left
-(line 36) Gives you the total sum of money you'd have for selling the whole inventory. 
+For the Select statements (line 34) sorts the items in order by price and quantity left
+(line 36) Gives you the total sum of money you'd have for selling the whole inventory. = $332.11
