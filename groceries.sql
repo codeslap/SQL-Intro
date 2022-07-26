@@ -9,5 +9,9 @@ INSERT INTO groceries VALUES(6, "Eggs", 1, 4);
 
 SELECT * FROM groceries ORDER BY aisle;
 
+SELECT SUM(quantity) FROM groceries;
+
 /* This is a list of groceries. You can put them in order in different ways, but if you
-were going shopping it would be easier to list them by aisle. 
+were going shopping it would be easier to list them by aisle. (line 10)
+
+You can also get a sum of everything on the grocery list to know how many items you will be buying total. (line 12)
