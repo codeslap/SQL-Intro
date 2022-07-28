@@ -33,7 +33,7 @@ INSERT INTO candy_store (item, quantity, price, aisle) VALUES ("Sour Belts", 24,
 
 SELECT item, price, quantity FROM candy_store ORDER by price;
 
-SELECT sum(price*quantity) FROM candy_store;
+SELECT SUM(price*quantity) FROM candy_store;
 
 /* This project is a candy store with 15 items, along with the price, quantity, and aisle it's in.
 For the Select statements (line 34) sorts the items in order by price and quantity left
